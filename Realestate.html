@@ -1,0 +1,75 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Book Selling Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="bg-blue-500 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Real-Estate</h1>
+        <ul class="flex items-center">
+            <li class="mr-4"><a href="#home" class="text-white hover:text-gray-200">Home</a></li>
+            <li class="mr-4"><a href="#books" class="text-white hover:text-gray-200">Books</a></li>
+            <li class="mr-4"><a href="#cart" class="text-white hover:text-gray-200">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center h-screen" style="background-image: url('https://picsum.photos/2000/1000')">
+        <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+            <h1 class="text-5xl font-bold text-white">Welcome to Bookstore</h1>
+            <p class="text-2xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Explore Books</button>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section id="books" class="bg-white py-12">
+        <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+            <h1 class="text-4xl font-bold text-gray-900">Books</h1>
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-4">
+                    <div class="bg-white rounded shadow-md p-4">
+                        <h2 class="text-2xl font-bold text-gray-900">Book 1</h2>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="text-gray-600">$19.99</p>
+                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 xl:w-1/3 p-4">
+                    <div class="bg-white rounded shadow-md p-4">
+                        <h2 class="text-2xl font-bold text-gray-900">Book 2</h2>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="text-gray-600">$14.99</p>
+                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 xl:w-1/3 p-4">
+                    <div class="bg-white rounded shadow-md p-4">
+                        <h2 class="text-2xl font-bold text-gray-900">Book 3</h2>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="text-gray-600">$9.99</p>
+                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="bg-gray-100 py-12">
+        <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+            <h1 class="text-4xl font-bold text-gray-900">Cart</h1>
+            <div class="bg-white rounded shadow-md p-4">
+                <h2 class="text-2xl font-bold text-gray-900">Your Cart</h2>
+                
+                </div>
+                </div>
+                </section>
+                </body>
+                </html>

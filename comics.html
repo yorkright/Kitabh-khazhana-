@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Book Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>2
+<body class="bg-gray-100">
+    <!-- Header Section -->
+    <header class="fixed top-0 left-0 w-full h-16 bg-blue-500 shadow-md">
+        <nav class="flex justify-between items-center h-full px-4">
+            <a href="#" class="text-3xl font-bold text-white">Comic Book Store</a>
+            <ul class="flex items-center">
+                <li><a href="#" class="text-lg text-white hover:text-yellow-300 mr-3">Home</a></li>
+                <li><a href="#" class="text-lg text-white hover:text-yellow-300 mr-4">About</a></li>
+                <li><a href="#" class="text-lg text-white hover:text-yellow-300 mr-2">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="h-screen w-full bg-cover bg-center" style="background-image: url('data:image/jpeg;base64,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');">
+        <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+            <h1 class="text-5xl font-bold text-white mb-4">Welcome to our Comic Book Store!</h1>
+            <p class="text-2xl text-white mb-4">All types of comics books are available in <br> this website also in the form of pdf</p>
+            <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Add to
+            Explore</button>
+            </div>
+    </section>
+
+    <!-- Main Section -->
+    <main class="container mx-auto p-4 md:p-6 lg:p-12 xl:p-24">
+        <h2 class="text-3xl font-bold mb-4">Featured Comics</h2>
+        <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/2 xl:w-1/3 p-4">
+                <img src="./image/p22.jpg" alt="Comic Book" class="w-full h-full object-cover">
+                <h3 class="text-2xl font-bold mb-2"> Title</h3>
+                <p class="text-lg mb-2">Comic Book Description</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Buy Now</button>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/3 p-4">
+                <img src="./image/p21.jpg" alt="Comic Book" class="w-full h-full object-cover">
+                <h3 class="text-2xl font-bold mb-2">  Title</h3>
+                <p class="text-lg mb-2">Comic Book Description</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Buy Now</button>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/3 p-4">
+                <img src="./image/p20.jpg" alt="Comic Book" class="w-full h-full object-cover">
+                <h3 class="text-2xl font-bold mb-2"> Title</h3>
+                <p class="text-lg mb-2">Comic Book Description</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Buy Now</button>
+            </div>
+        </div>
+    </main>
+
+
+    <br><br><br><br><br>
+    <footer class="fixed bottom-0 left-0 w-full h-16 bg-gray-200 shadow-md">
+        <p class="text-lg text-gray-600 text-center"> 2024 Comic Book Store</p>
+    </footer>
+</body>
+</html>
